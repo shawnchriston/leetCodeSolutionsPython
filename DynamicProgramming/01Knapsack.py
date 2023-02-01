@@ -1,7 +1,7 @@
 class Solution:
-    # @param A : list of integers
-    # @param B : list of integers
-    # @param C : integer
+    # @param A : list of integers representing value of item at i
+    # @param B : list of integers representing weight of item i
+    # @param C : integer representing capacity
     # @return an integer
     def solve(self, A, B, C):
         storage = [[0]*(C+1) for _ in range(len(A)+1)]
